@@ -7,8 +7,10 @@
     "name": "Avontus Software Corporation",
     "url": "https://www.avontus.com"
   },
-  "homepage": "https://www.avontus.com",
+  "homepage": "https://github.com/avontus/avontus-ai-scaffold-connect/blob/main/docs/connect-to-claude.md",
   "repository": "https://github.com/avontus/avontus-ai-scaffold-connect",
+  "privacyPolicyUrl": "https://www.avontus.com/privacy-policy/",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": [
     "avontus",
     "viewer",
