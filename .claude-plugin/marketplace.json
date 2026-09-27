@@ -1,0 +1,17 @@
+{
+  "name": "avontus-ai-scaffold-connect",
+  "owner": {
+    "name": "Avontus Software Corporation",
+    "url": "https://www.avontus.com"
+  },
+  "metadata": {
+    "description": "Avontus AI Scaffold Connect: plugins and skills that connect Avontus scaffold software to AI assistants."
+  },
+  "plugins": [
+    {
+      "name": "avontus-viewer",
+      "source": "./plugins/avontus-viewer",
+      "description": "Estimate scaffold labor, and read bills of materials, weights and scaffold units, from your Avontus Viewer designs."
+    }
+  ]
+}
