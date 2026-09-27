@@ -11,6 +11,10 @@ so each product can be listed and updated independently. What each connector can
 per plugin: the Avontus Viewer connector is read-only, but connectors for other Avontus products
 may not be.
 
+## Getting started
+
+- **Avontus Viewer:** [Connect Avontus Viewer to Claude](docs/connect-to-claude.md)
+
 ## Install in Claude Code
 
 ```
