@@ -21,3 +21,5 @@ may not be.
 ## Support
 
 Avontus support: support@avontus.com. Privacy policy: https://www.avontus.com/privacy-policy/
+
+Copyright (c) 2008-2026 Avontus Software Corporation. All rights reserved. See [LICENSE](LICENSE).
