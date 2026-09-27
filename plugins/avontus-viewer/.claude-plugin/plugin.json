@@ -10,6 +10,9 @@
   "homepage": "https://github.com/avontus/avontus-ai-scaffold-connect/blob/main/docs/connect-to-claude.md",
   "repository": "https://github.com/avontus/avontus-ai-scaffold-connect",
   "privacyPolicyUrl": "https://www.avontus.com/privacy-policy/",
+  "termsOfServiceUrl": "https://www.avontus.com/terms/",
+  "documentationUrl": "https://github.com/avontus/avontus-ai-scaffold-connect/blob/main/docs/connect-to-claude.md",
+  "supportUrl": "mailto:support@avontus.com",
   "icon": "./.claude-plugin/icon.png",
   "keywords": [
     "avontus",
