@@ -1,7 +1,7 @@
 {
   "name": "avontus-viewer",
   "displayName": "Avontus Viewer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Estimate scaffold labor, and read bills of materials, weights and scaffold units, from your Avontus Viewer designs. Connects to the Avontus Viewer connector and adds a skill for estimating man-hours with your own Schedule of Norms.",
   "author": {
     "name": "Avontus Software Corporation",
@@ -9,5 +9,13 @@
   },
   "homepage": "https://www.avontus.com",
   "repository": "https://github.com/avontus/avontus-ai-scaffold-connect",
-  "keywords": ["avontus", "viewer", "scaffold", "scaffolding", "bom", "estimating", "man-hours"]
+  "keywords": [
+    "avontus",
+    "viewer",
+    "scaffold",
+    "scaffolding",
+    "bom",
+    "estimating",
+    "man-hours"
+  ]
 }

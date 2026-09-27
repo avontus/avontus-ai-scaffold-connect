@@ -18,6 +18,15 @@ skill for estimating scaffold labor.
 
 Setup: [Connect Avontus Viewer to Claude](../../docs/connect-to-claude.md).
 
+## What this plugin connects to
+
+- **One remote connector,** `https://viewer-mcp.avontus.com/mcp`, run by Avontus. Requests go only
+  there, over HTTPS, after you sign in with your Avontus Viewer account on an Avontus page. The
+  connector returns data from your own Avontus Viewer account and designs shared with you.
+- **The skills are instructions only.** They run no code, install nothing and send no data.
+- Nothing else is fetched, installed or run. Avontus's handling of the data is described in the
+  [privacy policy](https://www.avontus.com/privacy-policy/).
+
 ## Requirements
 
 An Avontus Viewer account with an active subscription. Scaffold units need designs exported from
@@ -30,3 +39,5 @@ Claude. The connector itself also works in ChatGPT; this plugin package is Claud
 ## Support
 
 support@avontus.com
+
+Copyright (c) 2008-2026 Avontus Software Corporation. All rights reserved. See [LICENSE](LICENSE).
