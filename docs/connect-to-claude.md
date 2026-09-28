@@ -9,8 +9,7 @@ design, without opening the Viewer app.
 There is nothing to download or install. You connect Avontus Viewer in Claude
 and sign in with your existing Avontus Viewer account.
 
-> This guide will move to docs.avontus.com. Until then, this page is the
-> official setup guide.
+> This guide is also published on docs.avontus.com, as Connecting to Claude.
 
 ---
 
@@ -114,13 +113,19 @@ in using PKCE, the method designed for apps that can't safely hold a secret.
 2. Click **Connect**, sign in with your own Avontus Viewer email and password,
    and approve access.
 
+### If you are already signed in
+
+If you signed in to Avontus recently, the sign-in page shows **You're signed
+in as** with your account. Choose **Continue** to use that account, or **Use a
+different account** to sign in as someone else.
+
 ---
 
 ## Add the Avontus Viewer skills (optional)
 
-The [Avontus Viewer plugin](../plugins/avontus-viewer) adds skills that help
-Claude estimate labor with your own Schedule of Norms and present design data
-consistently. The connector works without them.
+The [Avontus Viewer plugin](../plugins/avontus-viewer)
+adds skills that help Claude estimate labor with your own Schedule of Norms and
+present design data consistently. The connector works without them.
 
 - **Claude Code:**
 
@@ -162,13 +167,16 @@ leg length and decks. You supply the labor units and productivity factors,
 from your own Schedule of Norms or your crews' recorded actuals. Claude applies
 them and shows every step, for example:
 
-> 157 pieces x 6 min = 942 min = 15.7 man-hours, then 15.7 x 1.25 = 19.6
+> 157 pieces × 6 min = 942 min = 15.7 man-hours, then 15.7 × 1.25 = 19.6
 > man-hours with a 1.25 congestion factor.
 
 Claude asks how your factors combine rather than assuming, treats erection,
 modification and dismantling separately, and never supplies a labor unit of
 its own. There is no universal scaffold labor standard, and a rate that is not
 your own can put a real bid at risk.
+
+See [Estimating man-hours with a Schedule of Norms](https://docs.avontus.com/docs/estimating-man-hours-with-a-schedule-of-norms)
+for the terminology and worked examples.
 
 ---
 
@@ -248,8 +256,9 @@ settings and confirm **Advanced settings → OAuth Client ID** reads exactly
 `viewer-connector`, with the Client Secret empty.
 
 **The wrong designs appear.** Confirm you signed in with the Avontus Viewer
-account that owns the designs. If the sign-in page says "You're signed in as"
-someone else, choose **Use a different account**.
+account that owns the designs. Disconnect and connect again, and if the
+sign-in page says "You're signed in as" someone else, choose **Use a different
+account**.
 
 **Claude says it can't find a design.** Ask it to list your designs first.
 Design names in Claude match the names in Avontus Viewer exactly.
@@ -265,6 +274,10 @@ subscription has lapsed, and Claude names the owner so you know who to ask.
 
 **The connector doesn't appear in a conversation.** Switch it on per
 conversation with the **+** button → **Connectors**.
+
+**The connector icon looks wrong or generic.** This is cosmetic and does not
+affect the connection. Claude caches connector icons and refreshes them on its
+own schedule.
 
 ---
 
