@@ -26,10 +26,13 @@ and sign in with your existing Avontus Viewer account.
 
 ## Connect from the Claude directory (recommended)
 
-> **Coming soon.** Avontus Viewer is being added to the Claude connector
-> directory. Until it appears there, use
-> [Add as a custom connector](#add-as-a-custom-connector) below. It connects to
-> the same service and works the same way.
+Avontus Viewer is in the Claude connector directory:
+[claude.ai/directory/connectors/avontus-viewer](https://claude.ai/directory/connectors/avontus-viewer).
+
+It is listed as a **Community** connector, which is the default for a new
+listing. Claude shows a note the first time you connect saying the connector
+has not been reviewed in depth. The label does not change what the connector
+can do or what it can see.
 
 ### Pro, Max or Free
 
@@ -63,8 +66,8 @@ account can already see.
 
 ## Add as a custom connector
 
-Use this method until the directory listing is available, or if your
-organization does not use directory connectors.
+Use this method if your organization does not use directory connectors. It
+connects to the same service and works the same way.
 
 You will enter two values. Both are the same for every customer, and neither
 is a secret:
