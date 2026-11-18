@@ -4,7 +4,7 @@ Plugins and skills that connect Avontus scaffold software to AI assistants.
 
 | Plugin | Product | Status |
 |---|---|---|
-| [`avontus-viewer`](plugins/avontus-viewer) | Avontus Viewer | [Live in the Claude directory](https://claude.ai/directory/connectors/avontus-viewer) |
+| [`avontus-viewer`](plugins/avontus-viewer) | Avontus Viewer | [Live in the Claude directory](https://claude.ai/directory/avontus-viewer) |
 
 Each plugin lives in its own folder under `plugins/`, with its own manifest, connector and skills,
 so each product can be listed and updated independently. What each connector can do is stated
@@ -13,7 +13,7 @@ may not be.
 
 ## Getting started
 
-- **Avontus Viewer:** [Connect Avontus Viewer to Claude](docs/connect-to-claude.md)
+- **Avontus Viewer:** [Connect Avontus Viewer to Claude](https://docs.avontus.com/docs/viewer-connector-in-claude)
 
 ## Install in Claude Code
 
